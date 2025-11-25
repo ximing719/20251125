@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>我的 p5.js 專案</title>
+
+    <!-- 內嵌一些基本樣式，讓畫布填滿頁面 -->
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* 避免出現捲軸 */
+      }
+      canvas {
+        display: block;
+      }
+    </style>
+
+    <!-- 1. 引入 p5.js 函式庫 (使用 CDN) -->
+    <!-- 這個路徑是正確的，並且不需要您下載任何檔案 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+    
+    <!-- (可選) 如果您的 sketch.js 中有使用到聲音功能，請取消下面這行的註解 -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js"></script> -->
+
+    <!-- 2. 引入您自己的 sketch.js 檔案 -->
+    <!-- 這個標籤必須在 p5.js 函式庫的後面 -->
+    <script src="sketch.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <!-- p5.js 會自動將 canvas 元素建立在這裡 -->
+    </main>
+  </body>
+</html>
